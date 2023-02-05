@@ -1,0 +1,21 @@
+.column-left {
+    float: left;
+    width: 20%;
+    height: max-content;
+    border-width: 30px;
+    background-color: #5B059E;
+    height: 100vh;
+    margin-right: 25px;
+  }
+
+  // .column-right {
+    
+    
+  // }
+  
+  /* Stops the float property from affecting content after the columns */
+  .columns:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

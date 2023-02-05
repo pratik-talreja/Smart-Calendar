@@ -1,0 +1,105 @@
+
+
+// *{
+//   padding: 0;
+//   margin: 0;
+//   // background-image: url('../../images/Todolist.gif');
+//   // background-repeat: no-repeat;
+//   // background-position: bottom left;
+//   // background-size: 45%;
+
+//   }
+
+  
+  footer p {
+    color: #ccc;
+    
+
+  }
+  
+  .todos-div{
+    margin-top : 65px;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+  
+  
+// .createarea-div{
+ 
+// }
+
+
+  form.create-note {
+    // position: relative;
+
+    // // display: flex;
+    // // flex-direction: row;
+    column-gap: 10px;
+    // width: 100%;
+    // margin: 60px auto 70px auto;
+    // background: #fff;
+    // padding: 15px;
+    // border-radius: 7px;
+    // box-shadow: 0 1px 5px rgb(138, 137, 137);
+    // height: 100px;  
+    // padding: 15px;
+    // border: 1px solid #5B059E;
+    // box-sizing: border-box;
+    position: relative;
+    width: 580px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+
+    
+  }
+  form.create-note input,
+  form.create-note textarea,
+  form.create-note label {
+    overflow: auto;
+    width: 100%;
+    border: none;  
+    padding: 15px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    
+  }
+
+  .duedate{
+
+    width: 100%;
+    border: none;  
+    padding: 15px;
+    outline: none;
+    font-size: 0.5 em;
+
+    font-family: inherit;
+    resize: none;
+  }
+
+
+  form.create-note button {
+    position: absolute;
+    flex-direction: row;
+
+    right: 18px;
+    bottom: -18px;
+
+    background: #5B059E;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }

@@ -1,0 +1,17 @@
+.leftpanel-button{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #DBD2EE;
+        color:#5B059E;
+        border:#5B059E;
+    }
+}

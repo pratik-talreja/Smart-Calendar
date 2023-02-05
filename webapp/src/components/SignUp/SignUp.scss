@@ -1,0 +1,97 @@
+
+.container {
+    min-height: 500px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+    background: white;
+    background-image: url("../../images/signup.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .formWrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+  
+    @media screen and (max-width: 400px) {
+      height: 80%;
+      padding: 10px;
+    }
+  }
+  
+  .signup {
+    background: white;
+    text-align: center;
+    justify-content: center;
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    margin: 0 auto;
+    padding: 40px 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(121, 25, 230, 0.9);
+  
+    @media screen and (max-width: 400px) {
+      padding: 32px 32px;
+    }
+  }
+  
+  H1 {
+    margin-bottom: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: black;
+  }
+  
+  input {
+    padding: 12px 12px;
+    margin-bottom: 20px;
+    background: #dbd2ee;
+    border: #5b059e;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #submit{
+    border-radius: 50px;
+    background: #5b059e;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  
+    &:hover {
+      transition: all 0.2s ease-in-out;
+      background: white;
+      color: #5b059e;
+      border: #5b059e;
+      border-radius: 4px;
+    }
+  }
+  
+
+  

@@ -1,0 +1,148 @@
+.container {
+  min-height: 692px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: white;
+  background-image: url("../../../images/signin.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.formWrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (max-width: 400px) {
+    height: 80%;
+    padding: 10px;
+  }
+}
+
+.sign-in {
+  background: white;
+  max-width: 400px;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  margin: 0 auto;
+  padding: 80px 32px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(121, 25, 230, 0.9);
+
+  @media screen and (max-width: 400px) {
+    padding: 32px 32px;
+  }
+}
+
+H1 {
+  margin-bottom: 40px;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: black;
+}
+
+input {
+  padding: 16px 16px;
+  margin-bottom: 32px;
+  background: #dbd2ee;
+  border: #5b059e;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.loginButton {
+  border-radius: 50px;
+  background: #5b059e;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: white;
+    color: #5b059e;
+    border: #5b059e;
+    border-radius: 4px;
+  }
+}
+
+.loginButtonDisabled {
+  border-radius: 50px;
+  background: #5b059e;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+
+
+
+// .nav-button {
+//   border-radius: 50px;
+//   background: #5b059e;
+//   white-space: nowrap;
+//   padding: 10px 22px;
+//   color: white;
+//   font-size: 16px;
+//   outline: none;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in-out;
+//   text-decoration: none;
+
+//   &:hover {
+//     transition: all 0.2s ease-in-out;
+//     background: white;
+//     color: #5b059e;
+//     border: #5b059e;
+//     border-radius: 4px;
+//   }
+// }
+
+#googleloginButton{
+    border-radius: 50px;
+  background: #5b059e;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: white;
+    color: #5b059e;
+    border: #5b059e;
+    border-radius: 4px;
+  }
+}
+

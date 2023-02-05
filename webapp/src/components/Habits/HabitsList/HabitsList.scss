@@ -1,0 +1,11 @@
+.list {
+    // height: 100%;
+    width: 70%;
+    float:right; 
+    // position: absolute;
+    // z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 25px;
+}

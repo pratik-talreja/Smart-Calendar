@@ -1,0 +1,47 @@
+h3 {
+  text-align: center;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  float: left;
+  position: absolute;
+}
+
+.addHabitButton {
+  width: 30%;
+  border-radius: 50px;
+  background: #5b059e;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: white;
+    color: #5b059e;
+    border: #5b059e;
+    border-radius: 4px;
+  }
+}
+
+.addHabitForm {
+  margin-top: 20px;
+  padding-top: 20px;
+  background: white;
+  max-width: 400px;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  margin: 0 auto;
+  padding: 80px 32px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgb(121 25 230 / 90%);
+}
